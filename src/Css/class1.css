@@ -1,0 +1,267 @@
+/* ClassButtons.css */
+
+/* Container for buttons */
+.button-container1 {
+   background-color: rgb(172, 209, 172);
+   border-radius: 5px;
+   color: rgb(4, 12, 19);
+   padding-top: 30px;
+   width: 100%;
+   left: 0%;
+   gap: 10px;
+   max-width: 100%;
+   text-align: center;
+   position: absolute;
+   top: 10%;
+ }
+ 
+ /* Header class */
+ .hclass1 {
+   font-family: sans-serif;
+   font-weight: 600;
+   position: absolute;
+   top: 1% !important;
+   left: 35%;
+   box-shadow: 4px 4px 4px rgb(226, 217, 217);
+   color: white;
+   border-radius: 9%;
+   background-color: #2c2c2c;
+   width: 30% !important;
+ }
+ 
+ /* Image styles */
+ .imgs {
+   border: 3px solid rgb(233, 224, 224);
+   border-radius: 60%;
+   box-shadow: 0 4px 8px rgba(245, 235, 235, 0.432);
+   padding: 5px;
+   width: 100px;
+   height: 100px; /* Ensure the height matches the width to maintain the circular shape */
+   object-fit: cover; /* This makes sure the image covers the entire area without stretching */
+   display: block; /* This ensures images are treated as block elements for proper sizing */
+   margin: 0 auto; /* Centering the image horizontally if needed */
+ }
+ 
+ /* Card styles */
+ .card {
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   overflow: hidden;
+   background-color: #252525d2;
+   box-shadow: 4px 4px 4px rgb(226, 217, 217);
+   text-align: center;
+   padding: 16px;
+   width: 450px;
+   height: 590px;
+   position: relative;
+   left: 33%;
+ }
+ 
+ /* Card content */
+ .card-content {
+   margin-top: 2%;
+   padding: 8px;
+   background-color: rgb(221, 228, 235);
+   box-shadow: 4px 4px 4px rgba(231, 223, 223, 0.904);
+   border-radius: 8px;
+ }
+ 
+ .card-content strong {
+   display: block;
+   margin-bottom: 4px;
+ }
+ 
+ .card-content p {
+   margin: 0;
+   margin-bottom: 8px;
+ }
+ 
+ /* Class styles for labels */
+ .clname,
+ .clroll,
+ .cldob,
+ .clgender,
+ .clemail,
+ .clstandard,
+ .clmobile,
+ .claddress {
+   position: absolute;
+   left: 15% !important;
+ }
+ 
+ .cname,
+ .cRoll,
+ .cdob,
+ .cDob,
+ .cgender,
+ .cemail,
+ .cstandard,
+ .cmobile,
+ .caddress {
+   position: relative;
+ }
+ 
+ .cname {
+   left: 19% !important;
+ }
+ 
+ .cRoll {
+   left: 12% !important;
+ }
+ 
+ .cdob {
+   left: 17% !important;
+ }
+ 
+ .cDob {
+   left: 17% !important;
+ }
+ 
+ .cgender {
+   left: 11% !important;
+ }
+ 
+ .cemail {
+   left: 26% !important;
+ }
+ 
+ .cstandard {
+   left: 9% !important;
+ }
+ 
+ .cmobile {
+   left: 15% !important;
+ }
+ 
+ .caddress {
+   left: 24% !important;
+ }
+ 
+ /* Table styles */
+ .student-table {
+   width: 100%;
+   border-collapse: collapse; /* Ensures borders between cells are merged */
+   margin: 20px auto; /* Center the table and add margin */
+   max-width: 800px; /* Optional: Set a max-width for larger screens */
+   border-radius: 8px; /* Rounded corners for the table */
+   overflow: hidden; /* Ensures content doesn't spill over the rounded corners */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+ }
+ 
+ .btns {
+   position: absolute;
+   top: -20% !important;
+   left: 0%;
+ }
+ 
+ .table-header {
+   background-color: #f4f4f4; /* Light grey background for headers */
+   padding: 12px; /* Padding inside header cells */
+   text-align: left; /* Align text to the left */
+   font-weight: bold; /* Bold text for headers */
+   color: #333; /* Darker text color for better readability */
+   border-bottom: 2px solid #ddd; /* Bottom border for separation */
+ }
+ 
+ .table-data {
+   padding: 12px; /* Padding inside data cells */
+   border-bottom: 1px solid #2c2c2c; /* Bottom border for separation */
+   color: #666; /* Lighter text color for data */
+   font-family: Arial, sans-serif; /* Consistent font across the table */
+ }
+ 
+ .table-data:last-child {
+   border-bottom: none; /* Remove border from the last row */
+ }
+ 
+ .table-header,
+ .table-data {
+   font-size: 1rem; /* Consistent font size */
+   text-align: left;
+ }
+ 
+ /* Media Queries */
+ 
+ /* Tablets (portrait and landscape) */
+ @media (max-width: 1200px) {
+   .card {
+     width: 55% !important; /* Adjust card width for tablets */
+     height: auto; /* Allow height to adjust based on content */
+     left: 5%; /* Center card horizontally */
+   }
+ 
+   .student-table {
+     font-size: 0.9rem; /* Adjust font size for tablets */
+   }
+   
+   .hclass1 {
+     left: 45%; /* Adjust header position */
+     width: 30% !important; /* Adjust width for better fit on tablets */
+   }
+ 
+   .button-container1 {
+     padding: 20px; /* Adjust padding */
+   }
+   .btns{
+      position: absolute !important;
+      top: -11% !important;
+   }
+ }
+ 
+ /* Mobile devices (portrait) */
+ @media (max-width: 768px) {
+   .card {
+      margin: 5%;
+     width: 95%; /* Adjust card width for mobile */
+     height: 95% !important; /* Allow height to adjust based on content */
+     left: 2.5%; /* Center card horizontally */
+   }
+ .btns{
+   top: -7% !important;
+ }
+   .student-table {
+     font-size: 0.8rem; /* Adjust font size for mobile */
+   }
+ 
+   .hclass1 {
+     left: 40%; /* Adjust header position */
+     width: 80%;
+     padding: 1.5%; /* Adjust width for better fit on mobile */
+     font-size: 1.5rem; /* Smaller font size for mobile */
+   }
+ 
+   .button-container1 {
+     padding: 10px; /* Adjust padding */
+   }
+ }
+ 
+ /* Extra small devices (portrait) */
+ @media (max-width: 480px) {
+   .card {
+      position: relative !important;
+      left: -3% !important;
+      margin: 5%;
+     width: 100%; /* Full width card for extra small devices */
+     height: auto; /* Allow height to adjust based on content */
+     left: 0%; /* No horizontal offset */
+   }
+ .btns{
+   position: absolute;
+   top: 4% !important;
+ }
+   .student-table {
+     font-size: 0.7rem; /* Adjust font size for very small screens */
+   }
+ 
+   .hclass1 {
+     left: 50%; 
+     padding: 2%;/* Align header to the left */
+     width: 30% !important; /* Full width header */
+     font-size: 1.2rem; /* Smaller font size for very small screens */
+   }
+ 
+   .button-container1 {
+     padding: 5px; /* Adjust padding */
+   }
+ }
+ 

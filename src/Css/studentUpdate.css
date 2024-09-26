@@ -1,0 +1,814 @@
+.maincontainerU {
+    position: absolute; /* Absolute positioning relative to the nearest positioned ancestor */
+    top: 10.5% !important;           /* Position 7.5% from the top of the containing block */
+    left: 0% !important;             /* Position 0% from the left edge of the containing block */
+    width: 100%!important ;        /* Fixed width of 650 pixels */
+    height: 660px !important;       /* Fixed height of 700 pixels */
+    
+    border: 1px solid #2c8353; /* Optional: Add border for visual clarity */
+    padding: 20px;     /* Optional: Add padding inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Optional: Add subtle shadow for better separation from background */
+    background-image: url('bg111.jpg');
+    background-position: center;
+    border-radius: 7px; /* Optional: Adds rounded corners to the container */
+  }
+  .sidebarRegU{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #2c835300;
+    width: 200px;
+    height: 620px !important;
+    border: #2c8353;
+  }
+  .formU{
+    position: absolute !important; /* Absolute positioning relative to the nearest positioned ancestor */
+    top: 1% !important;           /* Position 7.5% from the top of the containing block */
+    left: 25% !important; 
+    width: 50%;
+    height: 90% !important;
+    background-image: url('school-logo4.jpg'); /* Set the background image */
+    background-position: center ; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-size: cover; /* Scale the background image to cover the element */
+  
+  }
+  .formU h1{
+    color: #fcfbfb;
+    background-color: #363636a9;
+    width: 50%;
+    position: absolute !important;
+    top: 1% !important;
+    left: 22%;
+    box-shadow: 4px 4px 4px rgba(231, 223, 223, 0.781);
+    border-radius: 8px;
+  }
+
+  .errorCointainer{
+    position: absolute;
+    top: 10%;
+    left: 76%;
+  }
+  /* Error messages */
+.error-message {
+ 
+  color: red;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 5px;
+}
+  .lRoll{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: white;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .Roll{
+    position: absolute;
+    top: 16%;
+    left: 6%;
+    width: 35%;
+    padding: 8px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .lname{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: white;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .name{
+    position: absolute;
+    top: 31%;
+    left: 6%;
+    width: 35%;
+    padding: 8px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .ldob{
+    position: absolute;
+    top: 10%;
+    left: 58%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: white;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .dob{
+    position: absolute;
+    top: 16%;
+    left: 58%;
+    width: 35%;
+    padding: 8px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6; 
+  }
+  .lgender{
+    position: absolute;
+    top: 25%;
+    left: 58%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: white;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .gender{
+    position: absolute;
+    top: 31%;
+    left: 58%;
+    width: 35%;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6; 
+  }
+  .lemail{
+    position: absolute;
+    top: 41%;
+    left: 5%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: white;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .email{
+    position: absolute;
+    top: 47%;
+    left: 6%;
+    width: 35% !important;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .lstandard{
+    position: absolute;
+    top: 41%;
+    left: 58%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: white;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .standard{
+    position: absolute;
+    top: 47%;
+    left:58%;
+    width: 35% !important;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .lmobileNumber{
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: white;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .mobileNumber{
+    position: absolute;
+    top: 64%;
+    left:6%;
+    width: 35% !important;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .laddress{
+
+    position: absolute;
+    top: 58%;
+    left: 58%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: white;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .address{
+    position: absolute;
+    top: 64%;
+    left:58%;
+    width: 35% !important;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .lfile{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: white;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .file{
+    position: absolute;
+    top: 81%;
+    left:6%;
+    width: 40% !important;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+
+.submitbtn{
+  position: absolute;
+  top: 88%;
+  left: 75%;
+}
+
+  .submitbtn:hover{
+    background-color: #0056b3;
+  }
+
+  .submitbtn:disabled{
+    background-color: #b0bec5;
+    cursor: not-allowed;
+  }
+  
+  
+ 
+/* For mobile devices */
+@media (max-width: 599px) {
+  .maincontainer {
+      top: 5% !important;
+      left: 0% !important;
+      width: 100% !important;
+      height: 663px !important; /* Adjust height based on content */
+  }
+
+  .sidebarRegU {
+      width: 40%;
+      height: auto; /* Adjust height for mobile */
+      position: absolute !important; 
+      top: 0% !important;/* Stack it above the main container */
+  }
+
+  .formU {
+      width: 80% !important;
+      position: absolute !important;
+      top: 13% !important;
+      left: 9% !important ;
+      height: 85% !important;
+  }
+
+  .formU h1{
+    width: 80% !important;
+    position: absolute !important;
+    top: 2% !important;
+    /* left: 9% !important ; */
+    height: 7% !important;
+}
+
+
+  .lRoll{
+    position: absolute !important;
+    top: 10% !important;
+    left: 6% !important;
+    
+  }
+  .Roll{
+    position: absolute !important;
+    top: 16% !important;
+    left: 6% !important;
+    width: 40% !important;
+    
+  }
+  .lname{
+    position: absolute !important;
+    top: 25% !important;
+    left: 5% !important;
+  
+  }
+  .name{
+    position: absolute !important;
+    top: 31% !important;
+    left: 6% !important;
+    width: 40% !important;
+  
+  }
+  .ldob{
+    position: absolute !important;
+    top: 10% !important;
+    left: 58% !important;
+    
+  }
+  .dob{
+    position: absolute !important;
+    top: 16% !important;
+    left: 58%!important;
+    width: 35% !important;
+   
+  }
+  .lgender{
+    position: absolute !important;
+    top: 25% !important;
+    left: 58% !important;
+   
+  }
+  .gender{
+    position: absolute !important;
+    top: 31% !important;
+    left: 58% !important;
+    width: 35% !important;
+    
+  }
+  .lemail{
+    position: absolute !important;
+    top: 41% !important;
+    left: 5% !important;
+    
+  }
+  .email{
+    position: absolute !important;
+    top: 47%;
+    left: 6%;
+    width: 40%!important;
+   
+  }
+  .lstandard{
+    position: absolute !important;
+    top: 41% !important;
+    left: 58% !important;
+    
+  }
+  .standard{
+    position: absolute !important;
+    top: 47% !important;
+    left:58% !important;
+    width: 35% !important;
+    
+    color: #000000;
+    
+  }
+  .lmobileNumber{
+    position: absolute !important;
+    top: 58% !important;
+    left: 5% !important;
+  
+   color: white;
+  
+  }
+  .mobileNumber{
+    position: absolute !important;
+    top: 64% !important;
+    left:6% !important;
+    width: 40% !important;
+   
+    background-color: #d8dfe6;
+  }
+  .laddress{
+  
+    position: absolute !important;
+    top: 58% !important;
+    left: 58% !important;
+    ;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: white;
+   
+  }
+  .address{
+    position: absolute !important;
+    top: 64% !important;
+    left:58% !important;
+    width: 35% !important;
+   
+  }
+  .lfile{
+    position: absolute !important;
+    top: 75% !important;
+    left: 5% !important;
+   
+   color: white;
+   
+  }
+  .file{
+    position: absolute !important;
+    top: 81% !important;
+    left:6% !important;
+    width: 50% !important;
+    
+  }
+  
+  .submitbtn{
+    position: absolute !important;
+    top: 93% !important;
+    left: 35% !important;
+    width: 30% !important;
+  }
+}
+
+/* For tablets (600px and up) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .maincontainer {
+      top: 7% !important;
+      left: 5% !important;
+      width: 90% !important;
+      height: 130% !important;
+  }
+
+  .sidebarRegU {
+      width: 150px;
+      height: 600px;
+      position: absolute !important;
+      top: 0% !important; 
+      left: 0% !important;/* Fixed position */
+  }
+
+  .formU {
+    position: absolute;
+    top: 12% !important;
+    left: 9% !important;
+      width: 80% !important;
+      height: 93% !important;
+  }
+  .formU h1{
+    width: 100%;
+    left:18%;
+    padding: 10px;
+    height: 49px;
+    font-size: 18px; 
+
+  }
+  .errorCointainer {
+      top: 8%;
+      left: 70%;
+  }
+
+  
+
+
+.lRoll{
+  position: absolute !important;
+  top: 10% !important;
+  left: 6% !important;
+  
+}
+.Roll{
+  position: absolute !important;
+  top: 16% !important;
+  left: 6% !important;
+  width: 40% !important;
+  
+}
+.lname{
+  position: absolute !important;
+  top: 25% !important;
+  left: 5% !important;
+
+}
+.name{
+  position: absolute !important;
+  top: 31% !important;
+  left: 6% !important;
+  width: 40% !important;
+
+}
+.ldob{
+  position: absolute !important;
+  top: 10% !important;
+  left: 58% !important;
+  
+}
+.dob{
+  position: absolute !important;
+  top: 16% !important;
+  left: 58%!important;
+  width: 35% !important;
+ 
+}
+.lgender{
+  position: absolute !important;
+  top: 25% !important;
+  left: 58% !important;
+ 
+}
+.gender{
+  position: absolute !important;
+  top: 31% !important;
+  left: 58% !important;
+  width: 35% !important;
+  
+}
+.lemail{
+  position: absolute !important;
+  top: 41% !important;
+  left: 5% !important;
+  
+}
+.email{
+  position: absolute !important;
+  top: 47%;
+  left: 6%;
+  width: 40%!important;
+ 
+}
+.lstandard{
+  position: absolute !important;
+  top: 41% !important;
+  left: 58% !important;
+  
+}
+.standard{
+  position: absolute !important;
+  top: 47% !important;
+  left:58% !important;
+  width: 35% !important;
+  
+  color: #000000;
+  
+}
+.lmobileNumber{
+  position: absolute !important;
+  top: 58% !important;
+  left: 5% !important;
+
+ color: white;
+
+}
+.mobileNumber{
+  position: absolute !important;
+  top: 64% !important;
+  left:6% !important;
+  width: 40% !important;
+ 
+  background-color: #d8dfe6;
+}
+.laddress{
+
+  position: absolute !important;
+  top: 58% !important;
+  left: 58% !important;
+  ;  /* Boldest weight */
+  font-family: sans-serif;
+  margin-bottom: 5px;
+ color: white;
+ 
+}
+.address{
+  position: absolute !important;
+  top: 64% !important;
+  left:58% !important;
+  width: 35% !important;
+ 
+}
+.lfile{
+  position: absolute !important;
+  top: 75% !important;
+  left: 5% !important;
+ 
+ color: white;
+ 
+}
+.file{
+  position: absolute !important;
+  top: 81% !important;
+  left:6% !important;
+  width: 50% !important;
+  
+}
+
+.submitbtn{
+  position: absolute !important;
+  top: 93% !important;
+  left: 35% !important;
+  width: 30% !important;
+}
+}
+
+/* For large devices (1024px and up) */
+@media (min-width: 1024px) {
+  .maincontainer {
+      top: 10.5% !important;
+      left: 0% !important;
+      width: 100% !important;
+      height: 660px !important;
+  }
+
+  .sidebarRegU {
+      width: 200px;
+      height: 600px;
+  }
+
+  .formU {
+      width: 50% !important;
+  }
+
+  .errorCointainer {
+      top: 10%;
+      left: 76%;
+  }
+
+
+
+  .lRoll{
+    position: absolute !important;
+    top: 10% !important;
+    left: 7% !important;
+    
+  }
+  .Roll{
+    position: absolute !important;
+    top: 16% !important;
+    left: 6% !important;
+    width: 40% !important;
+    
+  }
+  .lname{
+    position: absolute !important;
+    top: 25% !important;
+    left: 5% !important;
+  
+  }
+  .name{
+    position: absolute !important;
+    top: 31% !important;
+    left: 6% !important;
+    width: 40% !important;
+  
+  }
+  .ldob{
+    position: absolute !important;
+    top: 10% !important;
+    left: 58% !important;
+    
+  }
+  .dob{
+    position: absolute !important;
+    top: 16% !important;
+    left: 58%!important;
+    width: 35% !important;
+   
+  }
+  .lgender{
+    position: absolute !important;
+    top: 25% !important;
+    left: 58% !important;
+   
+  }
+  .gender{
+    position: absolute !important;
+    top: 31% !important;
+    left: 58% !important;
+    width: 35% !important;
+    
+  }
+  .lemail{
+    position: absolute !important;
+    top: 41% !important;
+    left: 5% !important;
+    
+  }
+  .email{
+    position: absolute !important;
+    top: 47%;
+    left: 6%;
+    width: 40%!important;
+   
+  }
+  .lstandard{
+    position: absolute !important;
+    top: 41% !important;
+    left: 58% !important;
+    
+  }
+  .standard{
+    position: absolute !important;
+    top: 47% !important;
+    left:58% !important;
+    width: 35% !important;
+    
+    color: #000000;
+    
+  }
+  .lmobileNumber{
+    position: absolute !important;
+    top: 58% !important;
+    left: 5% !important;
+  
+   color: white;
+  
+  }
+  .mobileNumber{
+    position: absolute !important;
+    top: 64% !important;
+    left:6% !important;
+    width: 35% !important;
+   
+    background-color: #d8dfe6;
+  }
+  .laddress{
+  
+    position: absolute !important;
+    top: 58% !important;
+    left: 58% !important;
+    ;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: white;
+   
+  }
+  .address{
+    position: absolute !important;
+    top: 64% !important;
+    left:58% !important;
+    width: 35% !important;
+   
+  }
+  .lfile{
+    position: absolute !important;
+    top: 75% !important;
+    left: 5% !important;
+   
+   color: white;
+   
+  }
+  .file{
+    position: absolute !important;
+    top: 81% !important;
+    left:6% !important;
+    width: 80% ;
+    
+  }
+  
+  .submitbtn{
+    position: absolute !important;
+    top: 93% !important;
+    left: 35% !important;
+    width: 30% !important;
+  }
+}

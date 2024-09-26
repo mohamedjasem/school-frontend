@@ -1,0 +1,18 @@
+/* studentcard.css */
+
+/* Center the spinner on the page */
+.loading-spinner {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    background-color: aliceblue;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Styling for the student container */
+ 
+  

@@ -1,0 +1,176 @@
+
+
+
+/* Ensure no margin and padding on html and body */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure body takes full height */
+}
+
+/* General App styling */
+.App {
+  text-align: center;
+  height: 100vh; /* Full viewport height */
+  
+}
+
+/* Link styles */
+/* Basic button styling */
+.link {
+  position: relative !important;
+  top: 9% !important;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 10px 20px; /* Adjust padding for size */
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold;
+  color: #333232; /* Text color */
+  background-color: #dcfcec; /* Background color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.link:hover {
+  color: white;
+  text-decoration: none; /* Remove underline */
+  background-color: #42f18b; /* Darker background on hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Focus effect for accessibility */
+.link:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add custom focus outline */
+}
+
+/* Disabled state (if needed) */
+.link:disabled {
+  background-color: #c0c0c0; /* Gray background for disabled state */
+  color: #6c757d; /* Gray text color for disabled state */
+  cursor: not-allowed; /* Change cursor to indicate disabled */
+  pointer-events: none; /* Prevent interaction */
+}
+
+/* Navigation link styles */
+.nav-link {
+  color: #f2f4f7;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: color 0.3s, background-color 0.3s; /* Smooth transition for color and background */
+}
+
+.nav-link:hover {
+  background-color: #7272775e;
+  color: rgb(8, 8, 8);
+  border-radius: 6px;
+}
+
+/* Custom navbar brand */
+.navbar-brand-custom {
+  color: #FF5733;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0 15px;
+
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Logo styles */
+.imglogo {
+  width: 52px;
+  box-shadow: 1px 1px 5px 2px #ddd;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: filter 0.3s ease;
+}
+
+.imglogo:hover {
+  filter: grayscale(90%) brightness(0.8);
+  text-decoration: none;
+}
+
+/* Background color */
+.bg-custom {
+  background-color: #277a5f;
+}
+
+/* Navigation color */
+.navcolor {
+  color: blue;
+  padding-left: 1%;
+}
+
+/* Menu styles */
+.menu {
+  position: absolute;
+  left: 97%;
+  top: 19%;
+  background-color: #dddddd7c;
+}
+
+/* Menu button icon styles */
+.menu-button-icon {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+
+.menu-button-icon:hover {
+  background-color: #9e8383;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  display: none; /* Hide by default */
+  position: absolute; /* Changed from relative to absolute for positioning */
+  top: 159%; /* Position directly below the menu button */
+  left: -390%; /* Align with the menu button */
+  background-color: #0e0f13cb;
+  border: 1px solid #181717;
+  box-shadow: 5px 4px 8px 6px rgba(0,0,0,0.1);
+  padding: 15px;
+  color: white !important;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Dropdown list item styles */
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 12px 37px;
+  text-decoration: none;
+  color: #fcf9f9;
+  font-size: 15px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+  color: #000 !important;
+  border-radius: 7px;
+}
+
+/* Show dropdown when the button is active */
+.menu-button-icon.active + .dropdown-menu {
+  display: block;
+}

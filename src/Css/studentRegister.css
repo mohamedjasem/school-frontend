@@ -1,0 +1,558 @@
+.maincontainers {
+    position: absolute; /* Absolute positioning relative to the nearest positioned ancestor */
+    top: 10.5% !important;           /* Position 7.5% from the top of the containing block */
+    left: 0% !important;             /* Position 0% from the left edge of the containing block */
+    width: 100%!important ;        /* Fixed width of 650 pixels */
+    height: 640px !important;       /* Fixed height of 700 pixels */
+    
+    border: 1px solid #2c8353; /* Optional: Add border for visual clarity */
+    padding: 20px;     /* Optional: Add padding inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Optional: Add subtle shadow for better separation from background */
+    background-image: url('bg111.jpg');
+    background-position: center;
+    border-radius: 7px; /* Optional: Adds rounded corners to the container */
+  }
+  .sidebarReg1{
+    position: relative !important;
+    top: 0%;
+    left: 0%;
+    background-color: #f6f7f600 !important;
+    width: 200px;
+    height: 620px !important;
+    border: #2c8353;
+  }
+  .formr{
+    position: absolute; /* Absolute positioning relative to the nearest positioned ancestor */
+    top: 1% !important;           /* Position 7.5% from the top of the containing block */
+    left: 30% !important; 
+    width: 50%;
+    height: 89% !important;
+    background-color: #8b96a1 !important;
+    background-image: url('school-logo4.jpg'); /* Set the background image */
+    background-position: center ; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-size: cover; /* Scale the background image to cover the element */
+    background-color: #1080f0 !important;
+  
+  }
+  .formr h1{
+    color: #fcfbfb;
+    background-color: #363636a9;
+    width: 50%;
+    position: absolute !important;
+    top: 1% !important;
+    left: 22%;
+    box-shadow: 4px 4px 4px rgba(231, 223, 223, 0.781);
+    border-radius: 8px;
+  }
+
+
+  .errorCointainer{
+    position: absolute;
+    top: 10%;
+    left: 76%;
+  }
+  /* Error messages */
+.error-message {
+ 
+  color: red;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 5px;
+}
+  .lRoll{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+   color: rgb(255, 255, 255) !important;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .Roll{
+    position: absolute;
+    top: 16%;
+    left: 6% !important;
+    width: 35% !important;
+    padding: 8px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .lname{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .name{
+    position: absolute;
+    top: 31%;
+    left: 6%;
+    width: 35% !important;
+    padding: 8px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .ldob{
+    position: absolute;
+    top: 10%;
+    left: 58%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .dob{
+    position: absolute;
+    top: 16%;
+    left: 58%;
+    width: 35% !important;
+    padding: 8px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6; 
+  }
+  .lgender{
+    position: absolute;
+    top: 25%;
+    left: 58%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .gender{
+    position: absolute;
+    top: 31%;
+    left: 58%;
+    width: 35%;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6; 
+  }
+  .lemail{
+    position: absolute;
+    top: 41%;
+    left: 5%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .email{
+    position: absolute;
+    top: 47%;
+    left: 6%;
+    width: 35% !important;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .lstandard{
+    position: absolute;
+    top: 41%;
+    left: 58%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .standard{
+    position: absolute;
+    top: 47%;
+    left:58%;
+    width: 35% !important;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .lmobileNumber{
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .mobileNumber{
+    position: absolute;
+    top: 64%;
+    left:6%;
+    width: 35% !important;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .laddress{
+
+    position: absolute;
+    top: 58%;
+    left: 58%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .address{
+    position: absolute;
+    top: 64%;
+    left:58%;
+    width: 35% !important;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+  .lfile{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-weight: 600;  /* Boldest weight */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .file{
+    position: absolute;
+    top: 81%;
+    left:6%;
+    width: 40% !important;
+    padding: 10px;
+    padding-inline-start: 5%;
+    color: #000000;
+    border: 1px solid #917575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #d8dfe6;
+  }
+
+.submitbtn{
+  position: absolute;
+  top: 88%;
+  left: 75%;
+}
+
+  .submitbtn:hover{
+    background-color: #0056b3;
+  }
+
+  .submitbtn:disabled{
+    background-color: #b0bec5;
+    cursor: not-allowed;
+  }
+  
+ /* Media Queries */
+
+/* For devices with width up to 1200px (tablets and large mobile devices) */
+@media (max-width: 1200px) {
+  .maincontainer {
+      top: 5% !important; /* Adjust top position */
+      height: auto; /* Auto height */
+      padding: 15px; /* Adjust padding */
+  }
+
+  .sidebarReg1 {
+      width: 150px; /* Adjust width */
+  }
+
+  .formr {
+    position: absolute !important;
+    top: 0% !important;
+    left: 22% !important;
+      width: 70% !important; /* Adjust form width */
+  }
+  .gender{
+    width: 35% !important;
+  }
+
+  .formr h1 {
+      width: 60%;
+      left: 20%;
+  }
+
+  .errorCointainer {
+      left: 70%; /* Adjust left position */
+  }
+}
+
+/* For devices with width up to 768px (mobile devices) */
+@media (max-width: 768px) {
+  .maincontainer {
+      top: 0% !important; /* Adjust top position */
+      height: auto; /* Auto height */
+      padding: 10px; /* Adjust padding */
+  }
+
+  .sidebarReg1 {
+      display: block; 
+      position: absolute !important;
+      top: 0% !important;
+      
+  }
+
+  .formr {
+    position: absolute;
+      width: 90% !important; /* Full width */
+      top: 15% !important; /* Adjust top position */
+  
+  left: 5% !important;  }
+  .gender{
+    width: 35% !important;
+  }
+
+  .formr h1 {
+      width: 100%;
+      left: 0%;
+      height: 49px;
+      font-size: 18px; /* Adjust font size */
+  }
+
+  .errorCointainer {
+      left: 50%; /* Adjust left position */
+  }
+
+  .submitbtn {
+      top: 70%; /* Adjust top position */
+      left: 60%; /* Adjust left position */
+  }
+}
+
+/* For devices with width up to 480px (small mobile devices) */
+@media (max-width: 480px) {
+  .maincontainer {
+    top: 0% !important; /* Adjust top position */
+    height: 134% !important; /* Auto height */
+    padding: 10px; 
+  }
+
+  .sidebarReg1 {
+      display: block; /* Hide sidebar on very small screens */
+  }
+
+  .formr {
+    position: absolute !important;  
+    width: 90% !important; /* Full width */
+    height: 105% !important;  
+    top: 11% !important; /* Adjust top position */
+  left: 2% !important;
+    }
+
+  .formr h1 {
+      width: 100%;
+      top: 2%;
+      left: 0%;
+      height: 40px !important;
+      font-size: 18px; /* Adjust font size */
+  }
+
+  .errorCointainer {
+      left: 30%; /* Adjust left position */
+  }
+
+  .submitbtn {
+      top: 75%; /* Adjust top position */
+      left: 50%; /* Adjust left position */
+      padding: 8px 16px; /* Adjust padding */
+      font-size: 12px; /* Adjust font size */
+  }
+
+
+
+.lRoll{
+  position: absolute !important;
+  top: 10% !important;
+  left: 10% !important;
+  
+}
+.Roll{
+  position: absolute !important;
+  top: 16% !important;
+  left: 6% !important;
+  width: 40% !important;
+  
+}
+.lname{
+  position: absolute !important;
+  top: 25% !important;
+  left: 5% !important;
+
+}
+.name{
+  position: absolute !important;
+  top: 31% !important;
+  left: 6% !important;
+  width: 40% !important;
+
+}
+.ldob{
+  position: absolute !important;
+  top: 10% !important;
+  left: 58% !important;
+  
+}
+.dob{
+  position: absolute !important;
+  top: 16% !important;
+  left: 58%!important;
+  width: 35% !important;
+ 
+}
+.lgender{
+  position: absolute !important;
+  top: 25% !important;
+  left: 58% !important;
+ 
+}
+.gender{
+  position: absolute !important;
+  top: 31% !important;
+  left: 58% !important;
+  width: 35% !important;
+  
+}
+.lemail{
+  position: absolute !important;
+  top: 41% !important;
+  left: 5% !important;
+  
+}
+.email{
+  position: absolute !important;
+  top: 47%;
+  left: 6%;
+  width: 40%!important;
+ 
+}
+.lstandard{
+  position: absolute !important;
+  top: 41% !important;
+  left: 58% !important;
+  
+}
+.standard{
+  position: absolute !important;
+  top: 47% !important;
+  left:58% !important;
+  width: 35% !important;
+  
+  color: #000000;
+  
+}
+.lmobileNumber{
+  position: absolute !important;
+  top: 58% !important;
+  left: 5% !important;
+
+ color: white;
+
+}
+.mobileNumber{
+  position: absolute !important;
+  top: 64% !important;
+  left:6% !important;
+  width: 35% !important;
+ 
+  background-color: #d8dfe6;
+}
+.laddress{
+
+  position: absolute !important;
+  top: 58% !important;
+  left: 58% !important;
+  ;  /* Boldest weight */
+  font-family: sans-serif;
+  margin-bottom: 5px;
+ color: white;
+ 
+}
+.address{
+  position: absolute !important;
+  top: 64% !important;
+  left:58% !important;
+  width: 35% !important;
+ 
+}
+.lfile{
+  position: absolute !important;
+  top: 75% !important;
+  left: 5% !important;
+ 
+ color: white;
+ 
+}
+.file{
+  position: absolute !important;
+  top: 81% !important;
+  left:6% !important;
+  width: 80% ;
+  
+}
+
+.submitbtn{
+  position: absolute !important;
+  top: 93% !important;
+  left: 35% !important;
+  width: 30% !important;
+}
+}

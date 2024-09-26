@@ -1,0 +1,257 @@
+.mainLogin {
+  position: absolute !important;
+  top: 10% !important;
+  left: 0% !important;
+  width: 100% !important;
+  background-image: url('bg111.jpg') !important;
+  background-position: center !important;
+ 
+ 
+ 
+  height: 92% !important;/* Ensure it takes at least the full viewport height */
+
+}
+.L0ginMains{
+  width: 55% !important;
+ background-color: rgba(255, 253, 250, 0.726) !important;
+  position: relative !important;
+  top: 5% !important;
+  left: 20% !important;
+
+  height: 65% !important;
+  border-radius: 1px !important;
+ 
+}
+.img{
+  position: relative !important;
+  top: 0% !important;
+  width: 50% !important;
+  display: flex !important;
+  height: 100% !important;
+}
+/* Style for the form element */
+.formLogin{
+  position: absolute !important;
+  top:1% !important;
+  left: 50% !important;
+margin: 2px !important;
+
+
+  width: 50% !important;
+  height: 98% !important; /* Set the height to 50% of the viewport height */
+  margin: 0 auto !important; /* Center the form horizontally */
+ border-radius: 5px !important;
+  padding: 20px !important; /* Add padding inside the form */
+  background-color: rgba(0, 0, 0, 0.671) !important;
+  background-image: url('school-logo.png') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; 
+  background-blend-mode:color-burn !important;/* White background for the form */
+}
+
+
+.userName {
+  position: absolute !important;
+  top: 27% !important;
+  left: 10% !important;
+  
+
+  width: 300px !important; /* Adjust width to fit the container */
+  max-width: 280px !important; /* Set a max-width for better control */
+  padding: 10px 15px !important; /* Increased padding for better usability */
+  margin-left: auto !important; /* Center the input elements */
+  margin-right: auto !important; /* Center the input elements */
+  color: #000000 !important;
+  border: 1px solid #917575 !important;
+  border-radius: 8px !important;
+  box-sizing: 12px !important;
+  font-family: sans-serif !important;
+  background-color: #d8dfe6 !important;
+}
+.luserName{
+  position: absolute;
+  top: 20%;
+  left: 12%;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  
+}
+.formLogin h2{
+  font-family: sans-serif !important;
+  font-weight: 700;
+  position: absolute;
+  top: 6%;
+  left: 32%;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  
+}
+.lRole{
+  position: absolute !important;
+  top: 61% !important;
+  left: 11% !important;
+  color: white !important;
+}
+.role{
+  position: absolute;
+  top: 69%;
+  left: 10%;
+  max-width: 280px;
+  background-color: #d8dfe6;
+  border: 1px solid #917575;
+  border-radius: 8px;
+  width: 300px !important; /* Adjust width to fit the container */
+  max-width: 280px !important; /* Set a max-width for better control */
+  padding: 10px 15px !important; /* Increased padding for better usability */
+}
+
+
+.Passwordlogin {
+  position: absolute !important;
+  top: 48%;
+  left: 10%;
+  
+
+  width: 300px !important; /* Adjust width to fit the container */
+  max-width: 280px !important; /* Set a max-width for better control */
+  padding: 10px 15px !important; /* Increased padding for better usability */
+  margin-left: auto; /* Center the input elements */
+  margin-right: auto; /* Center the input elements */
+  color: #000000;
+  border: 1px solid #917575;
+  border-radius: 8px !important;
+  box-sizing: 12px !important;
+  font-family: sans-serif;
+  background-color: #d8dfe6;
+}
+.lpassWord{
+  position: absolute;
+  top: 41%;
+  left: 11%;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  
+}
+
+
+.button{
+
+ position: absolute;
+  top: 85%;
+  left: 36%;
+  width: 30%; /* Adjust width to fit the container */
+  max-width: 300px;
+}
+@media (max-width: 1200px) {
+  .mainLogin {
+    position: absolute !important;
+    top: 10% !important;
+    left: 0% !important;
+    width: 100% !important;
+    background-image: url('bg111.jpg') !important;
+    background-position: center !important;
+   
+   
+   
+    height: 92% !important;/* Ensure it takes at least the full viewport height */
+  
+  }
+ 
+  .L0ginMains {
+    width: 75% !important;
+   position: absolute !important;
+    left: 7% !important;
+    top: 10%;
+    height: 80%;
+  }
+
+  .formLogin {
+    width: 55% !important;
+    top: 5%;
+    left: 15%;
+    height: 80%;
+  }
+  .img{
+    position: relative;
+    top: 0%;
+    left: 5%;
+    width: 45% !important;
+    display: flex;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .L0ginMains {
+    width: 80% !important;
+
+    left: 10%;
+    top: 15% !important;
+    height: 80%;
+  }
+
+  .formLogin {
+    width: 70%;
+    top: 5%;
+    left: 15%;
+    height: 80%;
+  }
+  .img{
+    position: relative;
+    top: 0%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    height: 100%;
+  }
+
+  .userName,
+  .Passwordlogin,
+  .role {
+    max-width: 70% !important;
+    margin: auto;
+  }
+
+  .button {
+    position: absolute;
+    top: 85%;
+    left: 28%;
+    width: 40%;
+
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .L0ginMains {
+    width: 80% !important;
+    left: 8.5% !important;
+    top: 10%;
+    height: auto;
+  }
+
+  .formLogin {
+    width: 95% !important;
+    top: 10%;
+    left: 2.5% !important;
+    height: 400px;
+    padding: 15px;
+  }
+
+  .userName,
+  .password,
+  .role {
+    width: 100%;
+    max-width: 80%;
+  }
+
+  .button {
+    width: 60%;
+    position: absolute;
+    top: 85%;
+    left: 19%;
+  }
+}

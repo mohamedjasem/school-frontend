@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* homeBackgroundSlider.css */
+
+.background-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-content {
+  position: absolute;
+top: 30%;
+width: 100%;
+  left:0%; /* Adjust as needed */
+  color: white; /* Ensure text is visible on the background */
+ 
+
+ 
+}
+
+@keyframes slideFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+/* src/components/Home.css */
+.homeH1{
+  position: absolute !important;
+  top: -89% !important;
+  left: 37% !important;
+  
+  background-color: rgba(9, 58, 24, 0.151);
+  box-shadow: 4px 4px 4px rgba(226, 217, 217, 0);
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 800 !important;
+  height: 9%;
+  font-size: 250%;
+  border-radius: 2%;
+  padding: 10px;
+  padding-bottom: 5px;
+  color: rgb(97, 143, 67);
+  width: 45%;
+}
+.slider-content h1{
+  color: #faf3f3 !important;
+  
+}
+
+.H1Background {
+  position: relative !important;
+  left: 0%;
+  width: 100%;
+  font-size: 500%;
+
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(209, 200, 200) !important;
+  background-color: rgba(24, 25, 26, 0.13);
+  box-shadow: 4px 4px 4px rgba(226, 217, 217, 0);
+
+  /* Animation properties */
+  animation: slideFromBottom 5s ease-in-out infinite; /* Adjust duration and easing as needed */
+}
+/* Media Queries */
+@media (max-width: 1024px) {
+  .homeH1 {
+    position: absolute !important;
+    top: -66.5% !important;
+    padding: 10px 15px;
+    left: 35% !important;
+    width: 55%;
+    height: 5%;
+    font-size: x-large;
+    padding: 8px;
+  }
+.slider-content h1{
+  font-size: 300%;
+  
+}
+}
+
+@media (max-width: 768px) {
+  .homeH1 {
+    position: absolute !important;
+    top: -45.5% !important;
+    padding: 20px 15px !important;
+    left: 4% !important;
+    width: 55%;
+    font-size:larger;
+   background-color: rgba(0, 0, 0, 0.644);
+    top: 5%;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .homeH1 {
+    position: absolute; /* Change to relative for better positioning on small screens */
+    left: 0;
+    width: 90%;
+    font-size: medium;
+    padding: 5px;
+    top: 0; /* Reset top to 0 for better alignment */
+  }
+  
+  
+}

@@ -1,0 +1,161 @@
+/* ClassButtons.css */
+
+/* Container for buttons */
+.button-container1 {
+  background-color: rgb(172, 209, 172);
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 100%;
+  height: 600px;
+}
+
+/* Sidebar button class */
+.sidebarbtnclass {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: #2c835300;
+  width: 200px;
+  height: 600px !important;
+  border: #2c8353;
+}
+
+/* Main button container */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between buttons */
+  justify-content: center; /* Center buttons horizontally */
+  padding: 20px;
+  margin: 5%;
+}
+.btn14{
+  background-color: #359b85; /* Example background color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Add padding for better spacing */
+  font-size: 16px; /* Set font size */
+  position: absolute;
+  left: 0% !important;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.btn14:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+.btn14:focus {
+  outline: none; /* Remove default focus outline */
+}
+
+.btn14:active {
+  background-color: #004080; /* Even darker background when the button is clicked */
+}
+
+/* Button styles */
+.button-container button {
+  background-color: #4bad6c; /* Green background */
+  color: white; /* White text */
+  box-shadow: 4px 4px 4px rgba(231, 223, 223, 0.781);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 3.5%;
+  width: 25%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  outline: none; /* Remove default button outline */
+}
+
+/* Button hover effect */
+.button-container button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Button focus effect */
+.button-container button:focus {
+  outline: none; /* Remove default focus outline */
+}
+
+/* Media Queries */
+
+/* Tablets (portrait and landscape) */
+@media (max-width: 1024px) {
+  .button-container button {
+    width: 30%; /* Adjust button width for tablets */
+    font-size: 14px; /* Slightly smaller font size */
+    margin: 2%;
+  }
+.btn14{
+  position: absolute !important;
+  left: 0% !important;
+}
+  button-container1 {
+    background-color: rgb(172, 209, 172);
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 600px;
+  }
+
+  .sidebarbtnclass {
+    width: 150px; /* Adjust sidebar width */
+  }
+}
+
+/* Mobile devices (portrait) */
+@media (max-width: 768px) {
+  .button-container button {
+    width: 30%; /* Adjust button width for mobile */
+    font-size: 12px; /* Smaller font size for mobile */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+    position: relative;
+    top: 30% !important;
+    margin: 4%;
+  }
+
+  .button-container1 {
+    height: 660px !important; /* Adjust height for smaller screens */
+    padding: 10px; /* Add padding for mobile screens */
+  }
+
+  .sidebarbtnclass {
+    width: 120px; /* Adjust sidebar width for mobile */
+  }
+  .btn14{
+    width: 120% !important;
+    left: 0%;
+    position: absolute !important;
+  }
+}
+
+/* Extra small devices (portrait) */
+@media (max-width: 480px) {
+  .button-container button {
+    width: 100%; /* Full width buttons for extra small devices */
+    font-size: 10px; /* Smaller font size */
+    padding: 6px 12px; /* Smaller padding */
+    margin: 5%;
+    position: relative !important;
+    top: 10%;
+  }
+
+  .button-container1 {
+    height: auto !important; /* Adjust height for very small screens */
+    padding: 5px; /* Add padding for extra small screens */
+  }
+  .btn14{
+    width: 125% !important;
+
+  }
+
+  .sidebarbtnclass {
+    width: 100px; /* Adjust sidebar width for very small screens */
+  }
+}

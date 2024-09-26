@@ -1,0 +1,234 @@
+/* Base styles for all screen sizes */
+.AdminWelcome {
+    position: absolute;
+    top: -2%;
+    left: 41%;
+    font-size: 1.5rem;
+    color: #f3efef !important;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #50a88e;
+    border-radius: 5px;
+    background-color: #58a17dab;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    background-color: #fff;
+}
+
+.logout {
+    position: absolute;
+    top: 1.5%;
+    left: 87%;
+}
+
+.FirstContainer {
+    background-color: rgb(118, 179, 144);
+    position: absolute;
+    top: 10.5%;
+    left: 0%;
+    width: 100%;
+    height: 659px !important;
+}
+
+.containerbuttons {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: #2c8353;
+    width: 210px;
+    height: 660px;
+}
+
+.containerbuttons h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    position: relative;
+    top: 3%;
+    color: #f3efef;
+}
+
+.studentcontainer {
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    background-color: #8acfaf;
+    width: 85%;
+    height: 660px;
+}
+
+.btn12 {
+    display: inline-block; 
+    width: 180px;
+    padding: 10px 20px;
+    margin-top: 15%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3cce8a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn12:hover {
+    background-color: #0056b3;
+}
+
+.btn12:active {
+    transform: scale(0.98);
+}
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+    .AdminWelcome {
+        position: relative;
+        top: 0%;
+        left: 5%;
+        
+        font-size: 1.2rem;
+        margin: 10px 0;
+        padding: 8px;
+        width: 90%;
+    }
+    h2{
+        position: absolute;
+        top: 7% !important;
+        left: 0%;
+        
+    }
+
+    .logout {
+        top: 1%;
+        left: 70%;
+    }
+
+    .FirstContainer {
+        height: 653px;
+    }
+
+    .containerbuttons {
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 20px;
+    }
+
+    .containerbuttons h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+        position: relative;
+        top: 2%;
+        font-size: 1rem;
+        top: 0;
+        color: #f3efef;
+    }
+
+    .studentcontainer {
+        left: 0%;
+        width: 100%;
+        height: auto;
+    }
+
+    .btn12 {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 10%;
+    }
+}
+
+/* Tablet Devices */
+@media (min-width: 481px) and (max-width: 768px) {
+    .AdminWelcome {
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.3rem;
+        margin: 15px 0;
+        padding: 9px;
+        width: 80%;
+    }
+
+    .logout {
+        top: 2%;
+        left: 80% !important;
+    }
+
+    .FirstContainer {
+        height: auto;
+    }
+
+    .containerbuttons {
+        width: 200px;
+        padding: 10px;
+    }
+
+    .containerbuttons h2 {
+        font-size: 1.2rem;
+    }
+
+    .studentcontainer {
+        left: 10%;
+        width: 90%;
+        height: auto;
+    }
+
+    .btn12 {
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+/* Large Screens */
+@media (min-width: 1024px) {
+    .AdminWelcome {
+        top: -2%;
+        left: 41%;
+        transform: none;
+        font-size: 1.5rem;
+        margin: 20px 0;
+        padding: 10px;
+        width: auto;
+    }
+
+    .logout {
+        top: 1.5%;
+        left: 87%;
+    }
+
+    .FirstContainer {
+        height: 595px;
+        position: absolute;
+        top: 10.5%;
+        left: 0%;
+        width: 100%;
+        height: 595px;
+    }
+
+    .containerbuttons {
+        width: 200px;
+    }
+
+    .containerbuttons h2 {
+        font-size: 1.5rem;
+    }
+
+    .studentcontainer {
+        left: 15%;
+        width: 85%;
+        height: 660px;
+    }
+
+    .btn12 {
+        width: 180px;
+        font-size: 16px;
+    }
+}

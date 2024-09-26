@@ -1,0 +1,164 @@
+/* Container for profile and other content */
+.container-pro {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    position: absolute !important;
+    top: 17% !important;
+    left: 14%;
+    background-color: #f1f1f1cb;
+    width: 100% !important; /* Change to 100% to ensure responsiveness */
+    height: auto; /* Change to auto to adjust height based on content */
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+/* Profile container style */
+.profile-container {
+    background-color: rgb(157, 236, 181);
+    height: 450px;
+    width: 100%;
+    border-radius: 6px;
+}
+.profile-content{
+    background-color: #49484879;
+    color: white;
+    border-radius: 5px;
+    margin-top: 9% !important;
+    padding: 50px !important;
+    position: absolute !important;
+    top: 11%;
+    left: 19%;
+    margin-bottom: 2%;
+    height: 300px !important;
+    width: 70%;
+
+}
+
+/* Jumbotron style for section headers or highlights */
+.jumbotron {
+    background-color: #161e2593;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+    width: 50%;
+    position: absolute;
+
+    margin-top: 5%;
+    top: -3% !important;
+    left: 29%;
+}
+
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.info-table table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.info-table th, .info-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.info-table th {
+    background-color: #292828cb;
+    font-weight: bold;
+}
+
+.info-table tr:nth-child(even) {
+    background-color: #746f6f;
+}
+
+.info-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Tablets (portrait and landscape) */
+@media (max-width: 1024px) {
+    .container-pro {
+        padding: 15px; /* Adjust padding for tablets */
+        top: 15% !important; /* Adjust top position */
+        left: 15%; /* Adjust left position */
+        width: 70% !important;
+    }
+
+    .profile-content {
+        margin-top: 5%; /* Adjust margin for tablets */
+        padding: 40px; /* Adjust padding for tablets */
+        width: 85%; /* Adjust width for tablets */
+        left: 5%; /* Adjust left position */
+        top: 20%; /* Adjust top position */
+    }
+
+    .jumbotron {
+        width: 60%; /* Adjust width for tablets */
+        top: -2% !important; /* Adjust top position */
+        left: 21%; /* Adjust left position */
+    }
+}
+
+/* Mobile devices (portrait) */
+@media (max-width: 768px) {
+    .container-pro {
+        padding: 10px; /* Adjust padding for mobile devices */
+        top: 2%; /* Adjust top position */
+        left: 6%; /* Adjust left position */
+        width: 90% !important;
+    }
+
+    .profile-content {
+        margin-top: 5%; /* Adjust margin for mobile */
+        padding: 30px; /* Adjust padding for mobile */
+        width: 90%; /* Full width for mobile */
+        left: 5%; /* Adjust left position */
+        top: 19% !important; /* Adjust top position */
+    }
+
+    .jumbotron {
+        width: 50% !important; /* Adjust width for mobile */
+        top: -2% !important; /* Adjust top position */
+        left: 25% !important; /* Adjust left position */
+    }
+}
+
+/* Extra small devices (portrait) */
+@media (max-width: 480px) {
+    .container-pro {
+        padding: 15px !important; /* Minimal padding for extra small devices */
+        top: 1%; /* Further adjust top position */
+        left: 4%; /* Adjust left position */
+    }
+    .profile-container {
+        background-color: rgb(157, 236, 181);
+        height: 450px;
+        width: 100%;
+        border-radius: 6px;
+        padding: 16px !important;
+    }
+    .profile-content {
+        margin-top: 3%; /* Adjust margin for extra small devices */
+        padding: 25px !important; /* Adjust padding for extra small devices */
+        width: 90%; /* Full width for extra small devices */
+        left: 5%; /* Adjust left position */
+        top: 12%; /* Adjust top position */
+    }
+
+    .jumbotron {
+        width: 100%; /* Full width for extra small devices */
+        top: -2% !important; /* Adjust top position */
+        left: 25% !important; /* Adjust left position */
+    }
+}
